@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box; 
+} 
+
+body {
+    height: 100vh;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+header{
+    background-color: gray;
+    grid-column: 1 / 3;
+}
+
+aside{
+    background-color: yellow;
+    grid-column: 1;
+}
+
+main{
+    background-color: aqua;
+    grid-column: 2 / 3;
+}
+
+footer{
+    background-color: bisque;
+    grid-column: 1 / 3;
+}
+
+header, aside, main, footer{
+    border-radius: 20px;
+    border-style: dashed;
+    padding: 30px;
+}
+
+/* 
+.cabecalho {
+    background-color: gray;
+}
+
+.container_01 {
+    display: flex;
+    flex-flow: column;
+    background-color: aqua;
+}
+
+.right {
+    background-color: gold;
+}
+
+.botton {
+    background-color: pink;
+} */
